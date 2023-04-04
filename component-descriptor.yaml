@@ -1,0 +1,12 @@
+meta:
+  schemaVersion: v2
+component:
+  componentReferences: []
+  name: github.com/onmetal/gardener-extension-provider-onmetal
+  provider: internal
+  repositoryContexts:
+  - baseUrl: ghcr.io/afritzler/ocm-playground
+    type: ociRegistry
+  resources: []
+  sources: []
+  version: v0.1.0
