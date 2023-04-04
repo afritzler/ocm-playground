@@ -32,7 +32,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate component
-        run: hack/generate.sh
+        run: make component-descriptor
       - name: Publish component
         if: github.event_name != 'pull_request'
-        run: hack/publish.sh
+        run: make publish-component-descriptor

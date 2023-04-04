@@ -9,7 +9,10 @@ COMPONENTCLI ?= $(LOCALBIN)/component-cli
 COMPONENTCLI_VERSION ?= v0.53.0
 
 component-descriptor: component-cli
-	./hack/component_descriptor.sh foo
+	./hack/generate.sh
+
+publish-component-descriptor: component-cli
+	./hack/publish.sh
 
 .PHONY: component-cli
 component-cli: $(COMPONENTCLI) ## Download component-cli locally if necessary.
