@@ -9,4 +9,4 @@ component:
     type: ociRegistry
   resources: []
   sources: []
-  version: v0.1.0
+  version: v0.1.4
