@@ -2,7 +2,7 @@ meta:
   schemaVersion: v2
 component:
   componentReferences: []
-  name: github.com/onmetal/gardener-extension-provider-onmetal
+  name: github.com/onmetal/csi-driver-onmetal
   provider: internal
   repositoryContexts:
   - baseUrl: ghcr.io/afritzler/ocm-playground
