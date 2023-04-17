@@ -113,12 +113,12 @@ component:
       access:
         type: github
         repoUrl: github.com/onmetal/gardener-extension-provider-onmetal
-        ref: refs/tags/v0.1.4
-      version: v0.1.4
+        ref: refs/tags/v0.1.5
+      version: v0.1.5
       extraIdentity: { }
       type: git
       labels:
         - name: cloud.gardener/cicd/source
           value:
             repository-classification: main
-  version: v0.1.4
+  version: v0.1.5
